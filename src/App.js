@@ -3,6 +3,7 @@ import ReactErrorBoundries from "./components/Error_Boundries";
 import ForwardRef from "./components/Forward_Ref";
 import ReactFragment from "./components/Fragment";
 import ReactHoc from "./components/HOC";
+import Jsx from "./components/jsx";
 
 export default function App() {
   return (
@@ -20,6 +21,8 @@ export default function App() {
 
       {/* React Higher Order Component
       <ReactHoc/> */}
+
+      <Jsx />
     </div>
   );
 }
