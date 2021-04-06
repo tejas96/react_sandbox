@@ -5,6 +5,7 @@ import ReactFragment from "./components/Fragment";
 import ReactHoc from "./components/HOC";
 import Jsx from "./components/jsx";
 import ReactOptimization from "./components/Optimizing";
+import ReactPortals from "./components/portal";
 
 export default function App() {
   return (
@@ -28,6 +29,9 @@ export default function App() {
 
       {/* React ReactOptimization 
       <ReactOptimization /> */}
+
+      {/* React portal
+      <ReactPortals /> */}
     </div>
   );
 }
