@@ -4,6 +4,7 @@ import ForwardRef from "./components/Forward_Ref";
 import ReactFragment from "./components/Fragment";
 import ReactHoc from "./components/HOC";
 import Jsx from "./components/jsx";
+import ReactOptimization from "./components/Optimizing";
 
 export default function App() {
   return (
@@ -22,7 +23,11 @@ export default function App() {
       {/* React Higher Order Component
       <ReactHoc/> */}
 
-      <Jsx />
+      {/* React JSX
+      <Jsx /> */}
+
+      {/* React ReactOptimization 
+      <ReactOptimization /> */}
     </div>
   );
 }
