@@ -6,7 +6,7 @@ import ReactHoc from "./components/HOC";
 import Jsx from "./components/jsx";
 import ReactOptimization from "./components/Optimizing";
 import ReactPortals from "./components/portal";
-
+import Clock from "./components/ComponentContainerDesign";
 export default function App() {
   return (
     <div className="App">
@@ -32,6 +32,9 @@ export default function App() {
 
       {/* React portal
       <ReactPortals /> */}
+
+      {/* React Component & Container Design Pattern */}
+      <Clock />
     </div>
   );
 }
